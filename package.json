@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RybakV/board-games-server-vercel-api/issues"
   },
-  "homepage": "https://github.com/RybakV/board-games-server-vercel-api#readme"
+  "homepage": "https://github.com/RybakV/board-games-server-vercel-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
