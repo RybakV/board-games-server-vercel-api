@@ -1,0 +1,19 @@
+{
+  "name": "5-board-games-vercel-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RybakV/board-games-server-vercel-api.git"
+  },
+  "author": "RybakV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RybakV/board-games-server-vercel-api/issues"
+  },
+  "homepage": "https://github.com/RybakV/board-games-server-vercel-api#readme"
+}
