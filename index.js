@@ -84,10 +84,16 @@ app.get('/', (req, res) => {
     res.send('Board games api')
 })
 app.get('/games', (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin','*');
+    res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requeted-With, Content-Type, Accept, Authorization, RBR");
+    res.writeHead(200, {'Content-Type': 'application/json'});
     res.send(JSON.stringify(data.games))
 })
 
 app.get('/games/:id', (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin','*');
+    res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requeted-With, Content-Type, Accept, Authorization, RBR");
+    res.writeHead(200, {'Content-Type': 'application/json'});
     const id = req.params.id;
     res.send(JSON.stringify(data.games[id -1]))
 })
